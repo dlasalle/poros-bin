@@ -1,0 +1,6 @@
+[submodule "wildriver"]
+	path = wildriver
+	url = git@github.com:dlasalle/wildriver
+[submodule "dolos"]
+	path = dolos
+	url = git@bitbucket.org:dlasalle/dolos
