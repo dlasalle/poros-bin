@@ -4,3 +4,6 @@
 [submodule "dolos"]
 	path = dolos
 	url = git@bitbucket.org:dlasalle/dolos
+[submodule "poros"]
+	path = poros
+	url = https://github.com/dlasalle/poros
