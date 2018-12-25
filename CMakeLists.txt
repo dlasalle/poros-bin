@@ -1,7 +1,7 @@
-cmake_minimum_required(VERSION 2.6)
-project(DOLOSBIN)
+cmake_minimum_required(VERSION 2.8)
+project(POROSBIN)
 
-set(PROJECT_NAME "dolosbin")
+set(PROJECT_NAME "porosbin")
 set(MAJOR_VERSION 0)
 set(MINOR_VERSION 1)
 set(PATCH_VERSION 0)
@@ -16,7 +16,7 @@ else()
 endif()
 
 # set up types
-add_definitions(-DWILDRIVER_INDEX_TYPE=uint64_t)
+add_definitions(-DWILDRIVER_INDEX_TYPE=uint32_t)
 add_definitions(-DWILDRIVER_DIMENSION_TYPE=uint32_t)
 add_definitions(-DWILDRIVER_VALUE_TYPE=uint32_t)
 
@@ -47,9 +47,9 @@ add_subdirectory("wildriver")
 
 include_directories("wildriver/include")
 
-add_subdirectory("dolos")
+add_subdirectory("poros")
 
-include_directories("dolos/include")
+include_directories("poros/include")
 
 add_subdirectory("src")
 
