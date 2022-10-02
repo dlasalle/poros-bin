@@ -1,6 +1,6 @@
 [submodule "wildriver"]
 	path = wildriver
-	url = git@github.com:dlasalle/wildriver
+	url = https://github.com/dlasalle/wildriver
 [submodule "poros"]
 	path = poros
 	url = https://github.com/dlasalle/poros
