@@ -56,7 +56,9 @@ int main(
   poros_adj_type const nedges = handle->nedges;
 
   if (handle->ewgt) {
-    printf("Has edge weights\n.");
+    printf("Has edge weights.\n");
+  } else {
+    printf("No edge weight.\n");
   }
 
   poros_adj_type * xadj = malloc(sizeof(poros_adj_type)*(nvtxs+1));
